@@ -77,11 +77,20 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'irinache$db',
-        'USER': 'irinache',
+        'NAME': 'db',
+        'USER': 'irina',
         'PASSWORD': 'Germiona23',
-        'HOST': 'irinache.mysql.pythonanywhere-services.com',
+        'HOST': 'localhost',
     }
+
+    # 'default': {
+     #   'ENGINE': 'django.db.backends.mysql',
+     #   'NAME': 'irinache$db',
+     #   'USER': 'irinache',
+     #   'PASSWORD': 'Germiona23',
+      #  'HOST': 'irinache.mysql.pythonanywhere-services.com',
+   # }
+
 }
 
 
